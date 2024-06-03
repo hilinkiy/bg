@@ -14,7 +14,7 @@ for (let i = 0; i < item.length; i++) {
 
     item[i].addEventListener("click", function () {
         if (item[i].style.background == item[i].getAttribute('data-bg')) {
-            body.style.background = item[i].getAttribute('data-bg');
+            item.style.background = item[i].getAttribute('data-bg');
         }
     })
 }
